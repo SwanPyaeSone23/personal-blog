@@ -1,0 +1,9 @@
+# run.py
+import os
+from app import create_app
+
+app = create_app()
+
+if __name__ == '__main__':
+    # CHANGE 5000 -> 5001 (or 8000, 3000, etc.)
+    app.run(debug=True, host='0.0.0.0', port=5001) 

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Blog Works! 🎉</h1>
+<p>Template loading is now working.</p>
+<ul>
+{% for a in articles %}
+  <li>{{ a.title }} ({{ a.date }})</li>
+{% else %}
+  <li>No articles yet. <a href="/admin/login">Login to add</a></li>
+{% endfor %}
+</ul>
+{% endblock %}
