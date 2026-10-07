@@ -10,7 +10,7 @@ A simple Flask blog with file-based storage (JSON), Jinja2 templating, and sessi
 
 ## Local Setup
 ```bash
-git clone https://github.com/YOUR_USERNAME/personal-blog.git
+git clone https://github.com/SwanPyaeSone23/personal-blog.git
 cd personal-blog
 python3 -m venv venv
 source venv/bin/activate
